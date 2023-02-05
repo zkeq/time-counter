@@ -1,6 +1,10 @@
 ## 网站在线人数统计
 
+![time-counter](https://socialify.git.ci/soxft/time-counter/image?description=1&font=Bitter&language=1&name=1&owner=1&stargazers=1&theme=Dark)
+
 > 本项目是一个开箱即用的站点在线人数统计服务，同时开源支持私有化部署。
+
+> 项目仓库：https://github.com/soxft/time-counter
 
 ### 前言：
 
