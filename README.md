@@ -35,13 +35,13 @@
 1. Iframe 引入
 
 ```html
-<center><iframe frameborder=0  height=50px marginwidth=0 scrolling=no src="https://time-counter.onmicrosoft.cn/room/1"></iframe></center>
+<center><iframe frameborder=0  height=50px marginwidth=0 scrolling=no src="https://time-counter.onmicrosoft.cn/room/{Room ID}"></iframe></center>
 ```
 
 2. JS 引入
 
 ```html
-<script src="https://time-counter.onmicrosoft.cn/counter.js" async="" id="online-counter" interval="0" api="https://time-counter.onmicrosoft.cn/counter" room="{Room ID}"></script>
+<script src="https://time-counter.onmicrosoft.cn/counter.js" async="" id="online-counter" interval="240" api="https://time-counter.onmicrosoft.cn/counter" room="{Room ID}"></script>
 
 本站当前在线人数 <span style="color: red;" id="online_user"></span> 人
 
