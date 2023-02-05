@@ -26,7 +26,7 @@ body.busuanzi-backend { padding-left: 30px; padding-right: 30px; }
   .CodeMirror-gutters { display: none !important; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
-#write ol, #write ul { position: relative; }
+#write ol, #write ul { position: relative; max-width: 94%; }
 img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
 button, input, select, textarea { color: inherit; font: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
