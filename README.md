@@ -45,9 +45,9 @@
 
 本站当前在线人数 <span style="color: red;" id="online_user"></span> 人
 
-全站在线总时间 <span style="color: red;" id="online_me"></span>
+你的在线总时间: <span style="color: red;" id="online_me"></span>
 
-你的在线总时间:  <span style="color: red;" id="online_total"></span>
+全站在线总时间:  <span style="color: red;" id="online_total"></span>
 ```
 
 <!-- 
