@@ -1,7 +1,20 @@
 <script src="https://time-counter.onmicrosoft.cn/counter.js" async="" id="online-counter" interval="240" api="https://time-counter.onmicrosoft.cn/counter" room="zkeq"></script>
 
-本站当前在线人数 <span style="color: red;" id="online_user"></span> 人
+本站当前在线人数 <span style="color: red;" class="online_user"></span> 人
 
 全站在线总时间 <span style="color: red;" id="online_me"></span>
 
 你的在线总时间:  <span style="color: red;" id="online_total"></span>
+2323<span style="color: red;" class="online_me"></span>
+<span style="color: red;" class="online_me"></span>
+<span style="color: red;" class="online_me"></span>
+<span style="color: red;" class="online_me"></span>
+<span style="color: red;" class="online_me"></span>
+
+<script>
+    document.getElementsByClassName("online_me")
+    // 便利 改变所有
+    for (var i = 0; i < document.getElementsByClassName("online_me").length; i++) {
+        document.getElementsByClassName("online_me")[i].innerHTML = "123";
+    }
+</script>
