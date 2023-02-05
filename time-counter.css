@@ -207,17 +207,17 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
 .CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
 .CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
-.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
-.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
-.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
-.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
-.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
-.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-keyword { color: #4FFA7B }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: yellowgreen }
+.cm-s-inner .cm-number { color: yellow }
+.cm-s-inner .cm-def { color: #89ddff }
+.cm-s-inner .cm-variable { color: #89ddff }
+.cm-s-inner .cm-variable-2 { color: #8BE9FD }
 .cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
 .cm-s-inner .cm-string { color: #ecc48d; }
-.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
-.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
-.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-property { color: #c3e88d }
+.cm-s-inner .cm-operator { color: #9F5685 }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: #BC93F9 }
 .cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
 .cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
 .cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
@@ -2087,7 +2087,7 @@ code {
   color: var(--color-code);
 }
 
-details {
+/* details {
   -webkit-box-shadow: var(--shadow);
   box-shadow: var(--shadow);
   transition: all 0.2s ease;
@@ -2095,7 +2095,7 @@ details {
   border-radius: 4px;
   padding: 1rem;
   background: var(--bg-quote);
-}
+} */
 
 /* table setting */
 
@@ -2620,6 +2620,7 @@ ul ul ul {
 
 ol {
   list-style: decimal-leading-zero;
+  display: inline-block;
 }
 
 ol em {
@@ -2841,14 +2842,14 @@ kbd {
   padding: 2px;
 }
 
-details {
+/* details {
   transition: all 0.2s ease;
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 1rem;
   margin: 1.5rem auto;
   background: var(--bg-quote);
-}
+} */
 
 div.intro {
   font-family: var(--font-kai-cn);
