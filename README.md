@@ -4,6 +4,8 @@
 
 > 本项目是一个开箱即用的站点在线人数统计服务，同时开源支持私有化部署。
 
+> 项目官网：https://time-counter.icodeq.com
+
 > 项目仓库：https://github.com/soxft/time-counter
 
 ### 前言：
