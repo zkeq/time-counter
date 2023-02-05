@@ -2976,3 +2976,17 @@ table tr:hover {
     --font-footnote: 400 10.5pt/21pt var(--font-kai-cn);
   }
 }
+
+input {
+  border: none;
+  padding: 0;
+  width: 15ch;
+  background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/14.5ch 2px no-repeat;
+  font: 3ch droid sans mono, consolas, monospace;
+  letter-spacing: 0.5ch;
+}
+
+input:focus {
+  outline: none;
+  color: dodgerblue;
+}
